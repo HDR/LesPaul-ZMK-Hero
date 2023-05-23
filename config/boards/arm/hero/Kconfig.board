@@ -1,0 +1,3 @@
+config BOARD_HERO
+	bool "ZMK-Hero"
+	depends on SOC_NRF52840_QIAA

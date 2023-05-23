@@ -1,0 +1,22 @@
+if BOARD_HERO
+
+config ZMK_KEYBOARD_NAME
+    default "ZMK-HERO"
+    
+if USB_DEVICE_STACK
+
+config USB_NRFX
+	default y
+
+endif
+
+config BT_CTLR
+	default BT
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+endif

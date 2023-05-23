@@ -1,0 +1,40 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5     &kp UP     &kp LEFT     &kp RIGHT     &kp DOWN     &kp ESC     &kp L     &kp O     &kp SPACE     &kp ENTER
+            >;
+            
+            sensor-bindings = <&inc_dec_kp HOME END>;
+        };
+    };
+    
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_bt_next {
+            timeout-ms = <50>;
+            key-positions = <11 12 13>;
+            bindings = <&bt BT_NXT>;
+        };
+        
+        combo_bt_prev {
+            timeout-ms = <50>;
+            key-positions = <10 12 13>;
+            bindings = <&bt BT_PRV>;
+        };
+        
+        combo_bt_clear {
+            timeout-ms = <50>;
+            key-positions = <9 12 13>;
+            bindings = <&bt BT_CLR>;
+        };
+    };
+    
+};
