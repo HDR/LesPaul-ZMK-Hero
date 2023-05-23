@@ -1,7 +1,11 @@
-# LesPaul-ZMK-Hero - A Bluetooth PS3 Les Paul guitar mainboard replacement
+# LesPaul-ZMK-Hero - A Bluetooth PS3 Les Paul guitar mainboard replacement (CC BY-NC-SA 4.0)
 **Currently only works with PS3 Les Paul guitars that have a 13 Pin connector**
 
 **Order in 1.6mm & ENIG** (NOT HASL)
+
+[Available on PCBWay](https://www.pcbway.com/project/shareproject/Les_Paul_ZMK_Hero_16dc495b.html)
+[Available on OSHPark](https://oshpark.com/shared_projects/w8IVpIuz)
+
 
 ## Bill of materials
 | **Designator** | **Part**              |
@@ -50,9 +54,14 @@ Programming can be done using a Raspberry Pi & OpenOCD ([Setting up OpenOCD on a
 - No Whammy bar support currently implemented
 
 Additional info
+
 [Internals + Firmware](https://twitter.com/MartinRefseth/status/1604121572415098881)
+
 [Power Draw](https://twitter.com/MartinRefseth/status/1604466277937995782)
+
 [Clone Hero Demo](https://twitter.com/MartinRefseth/status/1604121736668098561)
 
+
 ![](https://i.imgur.com/Ys7u5M7.jpg)
+
 ![](https://i.imgur.com/s9LMdZS.png)
