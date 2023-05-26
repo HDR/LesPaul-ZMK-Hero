@@ -46,10 +46,9 @@ Programming can be done using a Raspberry Pi & OpenOCD ([Setting up OpenOCD on a
 [Raspberry Pi Pinout Diagram](https://pinout.xyz/)
 
 1. [Download the Adafruit nRF52 Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/latest/download/pca10056_bootloader-0.7.0_s140_6.1.1.hex)
-2. Extract pca10056_bootloader-0.7.0_s140_6.1.1.hex
-3. Run the following command with the board hooked up to your raspberry pi (You only need to do this the first time the board is flashed)
-`openocd -f interface/raspberrypi2-native.cfg -f target/nrf52.cfg -c "program pca10056_bootloader-0.6.2-2-g1e2fa56_s140_6.1.1.hex verify reset exit"`
-4. Connect the ZMK-Hero board to your pc with an usb c cable and drag the .uf2(found under the releases tab) file onto the ZMK-Hero drive
+2. Run the following command with the board hooked up to your raspberry pi (You only need to do this the first time the board is flashed)
+`openocd -f interface/raspberrypi2-native.cfg -f target/nrf52.cfg -c "program pca10056_bootloader-0.7.0_s140_6.1.1.hex verify reset exit"`
+3. Connect the ZMK-Hero board to your pc with an usb c cable and drag the .uf2(found under the releases tab) file onto the ZMK-Hero drive
 
 ## Known Issues
 - No Whammy bar support currently implemented
