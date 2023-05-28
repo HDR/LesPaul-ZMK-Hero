@@ -7,6 +7,8 @@
 
 [Available on OSHPark](https://oshpark.com/shared_projects/w8IVpIuz)
 
+**Plastic standoff might need to be trimmed to avoid crushing the shielding on the MS88SF2**
+
 
 ## Bill of materials
 | **Designator** | **Part**              |
