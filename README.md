@@ -9,6 +9,8 @@
 
 **Plastic standoff might need to be trimmed to avoid crushing the shielding on the MS88SF2**
 
+**DO NOT PLUG IN USB CABLES WHILE BATTERIES ARE INSERTED**
+
 
 ## Bill of materials
 | **Designator** | **Part**              |
