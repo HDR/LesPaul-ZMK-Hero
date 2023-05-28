@@ -1,5 +1,5 @@
 # LesPaul-ZMK-Hero - A Bluetooth PS3 Les Paul guitar mainboard replacement (CC BY-NC-SA 4.0)
-**Currently only works with PS3 Les Paul guitars that have a 13 Pin connector**
+**Currently only works with PS3 Les Paul guitars that have a 13 Pin connector** (Not currently compatible with the 16 pin connector variant)
 
 **Order in 1.6mm & ENIG** (NOT HASL)
 
